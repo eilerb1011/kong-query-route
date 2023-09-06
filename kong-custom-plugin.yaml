@@ -1,0 +1,9 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: kong-custom-query-routing
+config:
+  param: sys
+  value: new
+  service: nginx-service.default.80.svc
+plugin: queryrouting
