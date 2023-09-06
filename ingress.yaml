@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: ingress
   annotations:
-    konghq.com/plugins: kong-custom-query-routing,tcp-log-plugin
+    konghq.com/plugins: tcp-log-plugin
     konghq.com/https-status-redirect-code: "301"
     konghq.com/strip-path: "false"
     konghq.com/preserve-host: "true"
