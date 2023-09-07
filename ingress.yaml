@@ -5,7 +5,7 @@ metadata:
   annotations:
     konghq.com/plugins: tcp-log-plugin
     konghq.com/https-status-redirect-code: "301"
-    konghq.com/strip-path: "false"
+    konghq.com/strip-path: "true"
     konghq.com/preserve-host: "true"
     konghq.com/protocols: http,https
     konghq.com/http-forwarded: "preserve"
